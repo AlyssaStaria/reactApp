@@ -1,0 +1,7 @@
+/* Makes a grid with flex prperties */
+.candy_grid{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}

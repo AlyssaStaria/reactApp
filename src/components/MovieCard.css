@@ -1,0 +1,20 @@
+.movie-card{
+    background-color: white;
+    width: 250px;
+    color: black;
+    transition: all 0.25s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 15px 5px #00000052;
+}
+
+.movie-card img {
+    width: 100%;
+}
+
+.movie-card p {
+    padding-bottom: 30px;
+}
