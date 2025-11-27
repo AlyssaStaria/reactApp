@@ -5,9 +5,9 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <footer>
-        <p>Made by: Alyssa</p>
-        <p>TMDB for the api</p>
-        <img src="../assets/TMBD.png"></img>
+        <p>Made by: Alyssa</p>;
+        <p>TMDB for the api</p>;
+        <img src="./src/assets/TMBD.png"></img>;
     </footer>
   );
 };
