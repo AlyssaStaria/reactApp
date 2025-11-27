@@ -1,10 +1,13 @@
 import React from 'react';
 import "./Footer";
+import "./Footer.css"
 
 const Footer = () => {
   return (
     <footer>
-        <p>Made with sleepiness</p>
+        <p>Made by: Alyssa</p>
+        <p>TMDB for the api</p>
+        <img src="../assets/TMBD.png"></img>
     </footer>
   );
 };

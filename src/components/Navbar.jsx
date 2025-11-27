@@ -1,20 +1,47 @@
-import React from 'react';
-import './NavBar.css';<a href=""></a>
+import React from "react";
+
+import "./Navbar.css";
+
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  return (
-    <nav>
-        <ul>
-          {/* Loads the default page with a slash */}
-            <li><a href="/">Home</a></li>
-            <li><a href="/Popular">Popular</a></li>
-            <li><a href="/Top">Top Rated</a></li>
-            <li><a href="/snack">Concession</a></li>
-        </ul>
-    </nav>
-  );
-    
-  
-}
 
-export default Navbar
+return (
+
+<nav>
+
+<ul>
+
+<li>
+
+<Link to="/">Home</Link>
+
+</li>
+
+<li>
+
+<Link to="/snack">Candy</Link>
+
+</li>
+
+<li>
+
+<Link to="/Popular">Popular</Link>
+
+</li>
+
+<li>
+
+<Link to="/Top">Top Rated</Link>
+
+</li>
+
+</ul>
+
+</nav>
+
+ );
+
+};
+
+export default Navbar;

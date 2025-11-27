@@ -10,17 +10,12 @@ import PopularList from "./components/PopularList.jsx";
 import TopRated from "./components/TopRated.jsx";
 
 function App() {
-  const name = "Your Mom";
+  const name = "Alyssa's ";
 
   return (
     <>
       <header>
-        <h1>Candy Listing For {name}</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illo
-          cumque sit dignissimos, consectetur nemo possimus accusamus maxime
-          excepturi molestiae nesciunt, laborum corrupti quis asperiores!
-        </p>
+        <h1>{name} TMDB Website </h1>
       </header>
       <Navbar />
 

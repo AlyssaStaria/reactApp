@@ -1,5 +1,5 @@
 import React from "react";
-import "./Candies.css";
+
 
 const Candies = () => {
   const ages = [8, 23, 12, 50, 3, 62];

@@ -1,9 +1,9 @@
 footer{
-  background-color: rgb(230, 118, 202);
+  background-color: #bb84f1;
   color: rgb(46, 45, 102);
   /* Top/Bottom, Left/Right */
   /* left top right bottom */
-  padding: 100px 50px;
+  padding: 20px 50px;
   margin-top: 60px;
   
 }
